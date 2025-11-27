@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sapaan Dasar — Belajar Isyarat</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script>window.API_BASE = "http://localhost:4000";</script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <a href="index.html" class="back">← Kembali</a>
+      <h1 class="brand">Sapaan Dasar</h1>
+      <div class="nav-actions">
+        <button id="darkToggle" class="btn small">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container lesson-page">
+    <section class="lesson-intro">
+      <img src="images/greetings.png" alt="Greetings" class="lesson-img"/>
+      <div>
+        <h2>Hello • Thank You • Sorry</h2>
+        <p>Ringkasan gestur sapaan umum.</p>
+      </div>
+    </section>
+
+    <section class="quiz card">
+      <h3>Kuis singkat</h3>
+      <p id="q-text">Gesture mana untuk "Thank You"?</p>
+      <div class="options" id="options">
+        <button class="opt" data-correct="false">Hello</button>
+        <button class="opt" data-correct="true">Thank You</button>
+        <button class="opt" data-correct="false">Sorry</button>
+      </div>
+      <p id="result" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>

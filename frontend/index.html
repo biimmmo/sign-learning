@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Belajar Bahasa Isyarat — Dasar</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script>window.API_BASE = "http://localhost:4000";</script>
+  <script defer src="script.js"></script>
+  
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <h1 class="brand">Belajar Bahasa Isyarat</h1>
+      <div class="nav-actions">
+        <button id="darkToggle" class="btn small">Dark</button>
+        <a class="btn" href="#" id="refreshData">Refresh</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 class="hero-title">Kursus Dasar — 3 Lesson</h2>
+      <p class="muted">Demo untuk penilaian cloud: fokus pada hosting & arsitektur. Konten sederhana.</p>
+    </section>
+
+    <section class="cards" id="cards">
+      <!-- Card items injected by script (so we can animate them) -->
+    </section>
+
+    <footer class="footer">
+      <p>Deploy: frontend static (Vercel / Netlify) • backend (Render / Railway)</p>
+    </footer>
+  </main>
+</body>
+</html>

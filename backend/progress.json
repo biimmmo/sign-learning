@@ -1,0 +1,16 @@
+[
+  {
+    "user_id": "demo-user",
+    "lesson_slug": "lesson1.html",
+    "completed": true,
+    "score": 100,
+    "updated_at": "2025-11-27T16:35:07.801Z"
+  },
+  {
+    "user_id": "demo-user",
+    "lesson_slug": "lesson1",
+    "completed": true,
+    "score": 100,
+    "updated_at": "2025-11-27T17:05:19.562Z"
+  }
+]

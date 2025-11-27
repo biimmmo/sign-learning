@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Angka Dasar — Belajar Isyarat</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script>window.API_BASE = "http://localhost:4000";</script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <a href="index.html" class="back">← Kembali</a>
+      <h1 class="brand">Angka Dasar</h1>
+      <div class="nav-actions">
+        <button id="darkToggle" class="btn small">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container lesson-page">
+    <section class="lesson-intro">
+      <img src="images/numbers.png" alt="Numbers" class="lesson-img"/>
+      <div>
+        <h2>Angka 1–5</h2>
+        <p>Ringkasan singkat: Gesture angka 1–5.</p>
+      </div>
+    </section>
+
+    <section class="quiz card">
+      <h3>Kuis singkat</h3>
+      <p id="q-text">Gesture mana untuk angka 3?</p>
+      <div class="options" id="options">
+        <button class="opt" data-correct="false">2</button>
+        <button class="opt" data-correct="true">3</button>
+        <button class="opt" data-correct="false">4</button>
+      </div>
+      <p id="result" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>

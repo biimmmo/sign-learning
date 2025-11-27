@@ -1,0 +1,23 @@
+[
+  {
+    "id": "l1",
+    "slug": "alphabet",
+    "title": "Alphabet Dasar",
+    "desc": "Huruf A–E",
+    "image": "/images/alphabet.png"
+  },
+  {
+    "id": "l2",
+    "slug": "numbers",
+    "title": "Angka Dasar",
+    "desc": "Angka 1–5",
+    "image": "/images/numbers.png"
+  },
+  {
+    "id": "l3",
+    "slug": "greetings",
+    "title": "Sapaan Dasar",
+    "desc": "Hello, Thank You, Sorry",
+    "image": "/images/greetings.png"
+  }
+]
