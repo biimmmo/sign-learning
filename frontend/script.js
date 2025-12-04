@@ -1,6 +1,6 @@
 // script.js: handles UI, GSAP animations, dark mode, quiz interactions, and optional backend calls.
 
-const API_BASE = window.API_BASE = "http://localhost:4000";
+const API_BASE = window.API_BASE = "http://api.isyaratku.online";
 // If you deploy a backend, set window.API_BASE via a small inline script or replace null with your URL.
 const hero = document.querySelector('.hero-title');
 if (hero) {
